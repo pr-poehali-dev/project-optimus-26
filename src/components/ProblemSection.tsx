@@ -47,7 +47,7 @@ export function ProblemSection() {
           <div className="rounded-2xl bg-[#141414] border border-violet-500/20 p-5">
             <div className="flex items-center gap-2 mb-4">
               <Check className="h-4 w-4 text-violet-400" />
-              <span className="text-sm font-medium text-violet-400">С «День за днём»</span>
+              <span className="text-sm font-medium text-violet-400">Вместе с OnTrack</span>
             </div>
             <div className="space-y-3">
               {pairs.map((p, i) => (
