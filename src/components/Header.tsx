@@ -18,19 +18,19 @@ export function Header() {
       </div>
 
       <nav className="hidden md:flex items-center gap-8">
-        <a href="#features" onClick={scrollTo} className="text-sm text-gray-300 hover:text-white transition-colors">
+        <a href="#problem" onClick={scrollTo} className="text-sm text-gray-300 hover:text-white transition-colors">
           Как это работает
         </a>
         <a href="#for-whom" onClick={scrollTo} className="text-sm text-gray-300 hover:text-white transition-colors flex items-center gap-1">
           Для кого <ChevronDown className="h-4 w-4" />
         </a>
-        <a href="#templates" onClick={scrollTo} className="text-sm text-gray-300 hover:text-white transition-colors">
-          Шаблоны
+        <a href="#platform" onClick={scrollTo} className="text-sm text-gray-300 hover:text-white transition-colors">
+          Платформа
         </a>
         <a href="#pricing" onClick={scrollTo} className="text-sm text-gray-300 hover:text-white transition-colors">
           Тарифы
         </a>
-        <a href="#contacts" onClick={scrollTo} className="text-sm text-gray-300 hover:text-white transition-colors">
+        <a href="#lead" onClick={scrollTo} className="text-sm text-gray-300 hover:text-white transition-colors">
           Контакты
         </a>
       </nav>
@@ -38,9 +38,9 @@ export function Header() {
       <Button
         variant="outline"
         className="rounded-full border-violet-500 text-violet-400 hover:bg-violet-500/10 hover:text-violet-300 bg-transparent"
-        onClick={() => document.getElementById("templates")?.scrollIntoView({ behavior: "smooth" })}
+        onClick={() => document.getElementById("lead")?.scrollIntoView({ behavior: "smooth" })}
       >
-        Получить шаблоны
+        Запросить демо
       </Button>
     </header>
   )

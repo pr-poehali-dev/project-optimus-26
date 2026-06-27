@@ -1,27 +1,29 @@
 import { Header } from "@/components/Header"
 import { HeroSection } from "@/components/HeroSection"
-import { PartnersSection } from "@/components/PartnersSection"
-import { FeaturesSection } from "@/components/FeaturesSection"
+import { ProblemSection } from "@/components/ProblemSection"
+import { TimelineSection } from "@/components/TimelineSection"
 import { ForWhomSection } from "@/components/ForWhomSection"
-import { TemplatesSection } from "@/components/TemplatesSection"
+import { PlatformSection } from "@/components/PlatformSection"
+import { CasesSection } from "@/components/CasesSection"
 import { PricingSection } from "@/components/PricingSection"
-import { ContactSection } from "@/components/ContactSection"
+import { FaqSection } from "@/components/FaqSection"
+import { LeadSection } from "@/components/LeadSection"
+import { FooterSection } from "@/components/FooterSection"
 
 export default function Index() {
   return (
     <main className="min-h-screen bg-[#0a0a0a]">
       <Header />
       <HeroSection />
-      <PartnersSection />
-      <FeaturesSection />
+      <ProblemSection />
+      <TimelineSection />
       <ForWhomSection />
-      <TemplatesSection />
+      <PlatformSection />
+      <CasesSection />
       <PricingSection />
-      <ContactSection />
-      <footer className="py-8 text-center text-sm text-gray-400">
-        От карты на 14 дней до метрик первых 30 дней —{" "}
-        <span className="font-medium text-white">онбординг, который запускается без HR.</span>
-      </footer>
+      <FaqSection />
+      <LeadSection />
+      <FooterSection />
     </main>
   )
 }
