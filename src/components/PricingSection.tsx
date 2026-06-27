@@ -59,7 +59,7 @@ const plans = [
 export function PricingSection() {
   return (
     <section id="pricing" className="px-4 md:px-8 py-16 max-w-6xl mx-auto">
-      <p className="mb-3 text-xs uppercase tracking-widest text-violet-400">Тарифы</p>
+
       <h2 className="mb-12 text-3xl md:text-4xl font-bold text-white max-w-xl">
         Выберите удобный формат внедрения
       </h2>

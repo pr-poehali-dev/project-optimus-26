@@ -16,7 +16,7 @@ export function HeroSection() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="mb-5 text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight">
-            Онбординг в корпорации: пошаговый маршрут на 2 месяца вместо хаоса в чатах
+            Пошаговый маршрут на 2 месяца вместо хаоса в чатах
           </h1>
           <p className="mb-8 text-gray-400 text-lg leading-relaxed">
             Платформа, где новый сотрудник сразу видит, что делать, а руководитель — где затык. Прозрачные критерии готовности, встроенные метрики, интеграция с внутренними системами.

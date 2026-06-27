@@ -21,7 +21,7 @@ export function LeadSection() {
     <section id="lead" className="px-4 md:px-8 py-16 max-w-6xl mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         <div>
-          <p className="mb-3 text-xs uppercase tracking-widest text-violet-400">Лид-магнит</p>
+
           <h2 className="mb-4 text-3xl md:text-4xl font-bold text-white">
             Получите бесплатный шаблон: «Карта онбординга на 2 недели для менеджера»
           </h2>

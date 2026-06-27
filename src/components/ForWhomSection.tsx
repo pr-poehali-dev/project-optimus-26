@@ -31,7 +31,7 @@ export function ForWhomSection() {
   return (
     <section id="for-whom" className="px-4 md:px-8 py-16 bg-[#0d0d0d]">
       <div className="max-w-6xl mx-auto">
-        <p className="mb-3 text-xs uppercase tracking-widest text-violet-400">Для кого</p>
+
         <h2 className="mb-12 text-3xl md:text-4xl font-bold text-white max-w-2xl">
           Кому подойдёт и что вы получите уже в первый месяц
         </h2>

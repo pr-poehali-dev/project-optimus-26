@@ -36,7 +36,7 @@ const features = [
 export function PlatformSection() {
   return (
     <section id="platform" className="px-4 md:px-8 py-16 max-w-6xl mx-auto">
-      <p className="mb-3 text-xs uppercase tracking-widest text-violet-400">Платформа</p>
+
       <h2 className="mb-4 text-3xl md:text-4xl font-bold text-white max-w-2xl">
         Не «ещё один LMS», а готовый процесс с интеграциями
       </h2>

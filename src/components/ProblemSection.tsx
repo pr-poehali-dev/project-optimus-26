@@ -24,7 +24,7 @@ export function ProblemSection() {
   return (
     <section id="problem" className="px-4 md:px-8 py-16 bg-[#0d0d0d]">
       <div className="max-w-6xl mx-auto">
-        <p className="mb-3 text-xs uppercase tracking-widest text-violet-400">Проблема и решение</p>
+
         <h2 className="mb-12 text-3xl md:text-4xl font-bold text-white max-w-2xl">
           Почему онбординг в больших командах «не работает» и как это исправить
         </h2>
