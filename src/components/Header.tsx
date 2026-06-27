@@ -1,5 +1,6 @@
 import { ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { OnTrackLogo } from "@/components/Logo"
 
 function scrollTo(e: React.MouseEvent<HTMLAnchorElement>) {
   e.preventDefault()
@@ -11,9 +12,9 @@ export function Header() {
   return (
     <header className="flex items-center justify-between px-8 py-4">
       <div className="flex items-center gap-2">
-        <ФинПотокLogo />
+        <OnTrackLogo />
         <span className="text-lg font-semibold text-white">
-          Онбордо<sup className="text-xs">™</sup>
+          OnTrack<sup className="text-xs">™</sup>
         </span>
       </div>
 
@@ -46,13 +47,3 @@ export function Header() {
   )
 }
 
-function ФинПотокLogo() {
-  return (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="8" cy="8" r="3" fill="#8B5CF6" />
-      <circle cx="16" cy="8" r="3" fill="#8B5CF6" opacity="0.6" />
-      <circle cx="8" cy="16" r="3" fill="#8B5CF6" opacity="0.6" />
-      <circle cx="16" cy="16" r="3" fill="#8B5CF6" opacity="0.4" />
-    </svg>
-  )
-}

@@ -1,3 +1,5 @@
+import { OnTrackLogo } from "@/components/Logo"
+
 export function FooterSection() {
   return (
     <footer className="px-4 md:px-8 py-12 bg-[#0d0d0d] border-t border-[#1e1e1e]">
@@ -5,14 +7,9 @@ export function FooterSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="8" cy="8" r="3" fill="#8B5CF6" />
-                <circle cx="16" cy="8" r="3" fill="#8B5CF6" opacity="0.6" />
-                <circle cx="8" cy="16" r="3" fill="#8B5CF6" opacity="0.6" />
-                <circle cx="16" cy="16" r="3" fill="#8B5CF6" opacity="0.4" />
-              </svg>
+              <OnTrackLogo size={28} />
               <span className="text-lg font-semibold text-white">
-                Онбордо<sup className="text-xs">™</sup>
+                OnTrack<sup className="text-xs">™</sup>
               </span>
             </div>
             <p className="text-sm text-gray-500 max-w-xs">
@@ -57,7 +54,7 @@ export function FooterSection() {
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-between pt-6 border-t border-[#1e1e1e] gap-4">
-          <p className="text-xs text-gray-600">© 2025 Онбордо. Все права защищены.</p>
+          <p className="text-xs text-gray-600">© 2026 OnTrack. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="text-xs text-gray-600 hover:text-gray-400 transition-colors">Оферта</a>
             <a href="#" className="text-xs text-gray-600 hover:text-gray-400 transition-colors">Политика конфиденциальности</a>
